@@ -7,7 +7,7 @@ import { IoMdCart } from "react-icons/io";
 import { userDataContext } from "../context/UserContext";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import { authDataContext } from "../context/authContext";
+import { authDataContext } from "../context/AuthContext";
 import { HiOutlineCollection } from "react-icons/hi";
 import { MdContactSupport } from "react-icons/md";
 import { shopDataContext } from "../context/ShopContext";
