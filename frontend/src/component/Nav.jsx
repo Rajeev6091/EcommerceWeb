@@ -25,8 +25,8 @@ function Nav() {
     try {
       const result = await axios.get(serverUrl + "/api/auth/logout", { withCredentials: true });
       console.log(result.data);
-      toast.success("Logout Successfully");
-      await getCurrentUser();
+      // toast.success("Logout Successfully");
+      // await getCurrentUser();
       navigate("/login");
     } catch (error) {
       console.log(error);
