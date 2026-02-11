@@ -27,6 +27,7 @@ function Nav() {
       console.log(result.data);
       toast.success("Logout Successfully");
       getCurrentUser();
+      navigate("/login");
     } catch (error) {
       console.log(error);
     }
