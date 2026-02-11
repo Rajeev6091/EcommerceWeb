@@ -59,4 +59,84 @@ https://ecommerceweb-adminone.onrender.com
 ---
 
 ## 📂 Project Structure
+EcommerceWeb/
+│
+├── frontend/  # User Application
+├── admin/     # Admin Dashboard
+├── backend/   # REST API & Database
+
+
+---
+
+## ⚙️ Installation (Local Setup)
+
+### 1️⃣ Clone Repository
+
+git clone https://github.com/your-username/EcommerceWeb.git
+cd EcommerceWeb
+
+---
+
+### 2️⃣ Backend Setup
+
+cd backend
+npm install
+Create a `.env` file inside backend folder:
+- MONGO_URI=your_mongodb_connection_string
+- JWT_SECRET=your_secret_key
+Start backend:  npm start
+
+
+---
+
+### 3️⃣ Frontend Setup
+
+cd frontend
+npm install
+npm start
+
+---
+
+### 4️⃣ Admin Setup
+
+cd admin
+npm install
+npm start
+
+
+
+---
+
+## 🔐 Authentication Flow
+
+- User logs in
+- Server validates credentials
+- JWT token generated
+- Protected routes verified using middleware
+
+---
+
+## 📌 Future Enhancements
+
+- Payment Gateway Integration (Razorpay)
+- Product Reviews & Ratings
+- Order Tracking System
+- Role-Based Access Control
+- Docker Deployment
+
+---
+
+## 👨‍💻 Author
+
+Rajeev Singh  
+
+---
+
+
+
+
+
+
+
+
 
