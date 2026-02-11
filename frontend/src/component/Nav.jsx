@@ -7,7 +7,7 @@ import { IoMdCart } from "react-icons/io";
 import { userDataContext } from "../context/UserContext";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import { authDataContext } from "../context/AuthContext";
+import { authDataContext } from "../context/authContext";
 import { HiOutlineCollection } from "react-icons/hi";
 import { MdContactSupport } from "react-icons/md";
 import { shopDataContext } from "../context/ShopContext";
@@ -20,18 +20,6 @@ function Nav() {
   const [showProfile, setShowProfile] = useState(false);
 
   const navigate = useNavigate();
-
-  // const handleLogout = async () => {
-  //   try {
-  //     const result = await axios.get(serverUrl + "/api/auth/logout", { withCredentials: true });
-  //     console.log(result.data);
-  //     // toast.success("Logout Successfully");
-  //     await getCurrentUser();
-  //     navigate("/login");
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // };
 
   const handleLogout = async () => {
     try {
