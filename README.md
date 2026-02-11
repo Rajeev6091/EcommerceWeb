@@ -74,8 +74,7 @@ EcommerceWeb
 
 - git clone https://github.com/your-username/EcommerceWeb.git
 - cd EcommerceWeb
-
----
+  
 
 ### 2️⃣ Backend Setup
 
@@ -87,15 +86,12 @@ EcommerceWeb
 - Start backend:  npm start
 
 
----
-
 ### 3️⃣ Frontend Setup
 
 - cd frontend
 - npm install
 - npm start
 
----
 
 ### 4️⃣ Admin Setup
 
@@ -104,25 +100,6 @@ EcommerceWeb
 - npm start
 
 
-
----
-
-## 🔐 Authentication Flow
-
-- User logs in
-- Server validates credentials
-- JWT token generated
-- Protected routes verified using middleware
-
----
-
-## 📌 Future Enhancements
-
-- Payment Gateway Integration (Razorpay)
-- Product Reviews & Ratings
-- Order Tracking System
-- Role-Based Access Control
-- Docker Deployment
 
 ---
 
