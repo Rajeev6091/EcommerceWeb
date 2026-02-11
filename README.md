@@ -60,6 +60,7 @@ https://ecommerceweb-adminone.onrender.com
 
 ## 📂 Project Structure
 
+```
 EcommerceWeb/
 │
 ├── frontend/                     # User Application (React)
@@ -94,10 +95,9 @@ EcommerceWeb/
 │
 ├── .gitignore
 ├── README.md
-└── package.json (if root level exists)
+└── package.json
+```
 
-
----
 
 ## ⚙️ Installation (Local Setup)
 
