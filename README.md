@@ -59,11 +59,42 @@ https://ecommerceweb-adminone.onrender.com
 ---
 
 ## 📂 Project Structure
+
 EcommerceWeb/
 │
-├── frontend/  # User Application
-├── admin/     # Admin Dashboard
-├── backend/   # REST API & Database
+├── frontend/                     # User Application (React)
+│   ├── public/
+│   ├── src/
+│   │   ├── components/           # Reusable UI components
+│   │   ├── pages/                # Page-level components
+│   │   ├── context/              # Global state (AuthContext, CartContext)
+│   │   ├── services/             # API calls (Axios config)
+│   │   ├── App.js
+│   │   └── index.js
+│   └── package.json
+│
+├── admin/                        # Admin Dashboard (React)
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/             # Admin API calls
+│   │   ├── App.js
+│   │   └── index.js
+│   └── package.json
+│
+├── backend/                      # Node + Express API
+│   ├── config/                   # Database connection & configs
+│   ├── controllers/              # Business logic
+│   ├── models/                   # Mongoose schemas
+│   ├── routes/                   # API routes
+│   ├── middleware/               # Auth middleware
+│   ├── server.js                 # Entry point
+│   └── package.json
+│
+├── .gitignore
+├── README.md
+└── package.json (if root level exists)
 
 
 ---
