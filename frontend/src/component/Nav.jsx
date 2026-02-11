@@ -21,13 +21,24 @@ function Nav() {
 
   const navigate = useNavigate();
 
+  // const handleLogout = async () => {
+  //   try {
+  //     const result = await axios.get(serverUrl + "/api/auth/logout", { withCredentials: true });
+  //     console.log(result.data);
+  //     // toast.success("Logout Successfully");
+  //     await getCurrentUser();
+  //     navigate("/login");
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // };
+
   const handleLogout = async () => {
     try {
       const result = await axios.get(serverUrl + "/api/auth/logout", { withCredentials: true });
       console.log(result.data);
-      // toast.success("Logout Successfully");
-      await getCurrentUser();
-      navigate("/login");
+      toast.success("Logout Successfully");
+      getCurrentUser();
     } catch (error) {
       console.log(error);
     }
