@@ -8,12 +8,10 @@ Built with scalable architecture, secure authentication, and complete product ma
 ## 🌐 Live Demo
 
 ### 👤 User Website
-🔗 **Visit Here:**  
-https://ecommerceweb-frontendone.onrender.com
+🔗 **Visit Here:- **   https://ecommerceweb-frontendone.onrender.com
 
 ### 🔐 Admin Dashboard
-🔗 **Visit Here:**  
-https://ecommerceweb-adminone.onrender.com
+🔗 **Visit Here:- **   https://ecommerceweb-adminone.onrender.com
 
 ---
 
@@ -61,41 +59,12 @@ https://ecommerceweb-adminone.onrender.com
 ## 📂 Project Structure
 
 ```
-EcommerceWeb/
-│
-├── frontend/                     # User Application (React)
-│   ├── public/
-│   ├── src/
-│   │   ├── components/           # Reusable UI components
-│   │   ├── pages/                # Page-level components
-│   │   ├── context/              # Global state (AuthContext, CartContext)
-│   │   ├── services/             # API calls (Axios config)
-│   │   ├── App.js
-│   │   └── index.js
-│   └── package.json
-│
-├── admin/                        # Admin Dashboard (React)
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── services/             # Admin API calls
-│   │   ├── App.js
-│   │   └── index.js
-│   └── package.json
-│
-├── backend/                      # Node + Express API
-│   ├── config/                   # Database connection & configs
-│   ├── controllers/              # Business logic
-│   ├── models/                   # Mongoose schemas
-│   ├── routes/                   # API routes
-│   ├── middleware/               # Auth middleware
-│   ├── server.js                 # Entry point
-│   └── package.json
-│
-├── .gitignore
-├── README.md
-└── package.json
+EcommerceWeb
+|
+├── frontend/ # User Application
+├── admin/ # Admin Dashboard
+├── backend/ # REST API & Database
+└── README.md
 ```
 
 
@@ -103,36 +72,36 @@ EcommerceWeb/
 
 ### 1️⃣ Clone Repository
 
-git clone https://github.com/your-username/EcommerceWeb.git
-cd EcommerceWeb
+- git clone https://github.com/your-username/EcommerceWeb.git
+- cd EcommerceWeb
 
 ---
 
 ### 2️⃣ Backend Setup
 
-cd backend
-npm install
-Create a `.env` file inside backend folder:
-- MONGO_URI=your_mongodb_connection_string
-- JWT_SECRET=your_secret_key
-Start backend:  npm start
+- cd backend
+- npm install
+- Create a `.env` file inside backend folder:
+-- MONGO_URI=your_mongodb_connection_string
+-- JWT_SECRET=your_secret_key
+- Start backend:  npm start
 
 
 ---
 
 ### 3️⃣ Frontend Setup
 
-cd frontend
-npm install
-npm start
+- cd frontend
+- npm install
+- npm start
 
 ---
 
 ### 4️⃣ Admin Setup
 
-cd admin
-npm install
-npm start
+- cd admin
+- npm install
+- npm start
 
 
 
